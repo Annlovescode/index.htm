@@ -1,0 +1,125 @@
+<!-- Importing Fontawesome Icons CDN -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<style>
+  *{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+}
+
+body{
+  background-color:#61a1dd;
+  height:100vh;
+  display:grid;
+  place-items:center;
+  font-family:"Poppins", sans-serif;
+}
+
+.card{
+  background-color:#fff;
+  max-width:320px;
+  text-align:center;
+  padding-bottom:20px;
+  box-shadow:0 20px 30px rgba(0,0,0,0.2);
+}
+
+.card-header{
+  padding:35px 0;
+  background-image:linear-gradient(60deg,#61a1dd,#0083fd);
+}
+
+.card-header img{
+  width:120px;
+  height:120px;
+  object-fit:cover;
+  border-radius:50%;
+  box-shadow:0 10px 30px rgba(0,0,0,0.2);
+}
+
+.card-body{
+  padding:35px;
+  color:#565656;
+}
+
+.card-body h2{
+  text-transform:uppercase;
+  font-size:24px;
+}
+
+.card-body .username{
+  color:#9e9e9e;
+}
+
+.card-body .social-media-list{
+  margin:25px 0;
+  display:flex;
+  justify-content:center;
+}
+
+.social-media-list a{
+  color:#565656;
+  font-size:30px;
+  transition:color 0.3s;
+}
+
+.social-media-list a:not(:last-child){
+  margin-right:28px;
+}
+
+.social-media-list a:hover{
+  color:#61a1dd;
+}
+
+.card-body .about{
+  margin-bottom:45px;
+}
+
+.card-body .btn{
+  text-decoration:none;
+  padding:16px 48px;
+  background-image:linear-gradient(60deg,#61a1dd,#0083fd);
+  color:#fff;
+  text-transform:capitalize;
+  border-radius:100px;
+  transition:opacity 0.3s;
+}
+
+.card-body .btn:hover{
+  opacity:0.8;
+  }
+</style>
+
+<!-- Importing Poppins Font From Google Fonts -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;600&display=swap" rel="stylesheet">
+
+<!-- Card Markup -->
+<div class="card">
+  <div class="card-header">
+    <img src="https://media.licdn.com/dms/image/D4E03AQHa79OJlLuMng/profile-displayphoto-shrink_800_800/0/1694694567178?e=2147483647&v=beta&t=0K6126Gt69wMZq91BKRVQvEPQnFRJMn-fDOVFP6vN-A" alt="p" />
+  </div>
+  <div class="card-body">
+    <h2>Annmary Edwin </h2>
+    <p class="username">@annmaryedwin11@gmail.com</p>
+    <div class="social-media-list">
+      <a href="https://instagram.com/edwinannmary?igshid=OGQ5ZDc2ODk2ZA==">
+        <i class="fab fa-instagram "></i>
+      </a>
+      <a href="https://www.youtube.com/@annmaryedwin6370">
+        <i class="fab fa-youtube"></i>
+      </a>   
+      
+   
+      <a href="https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://in.linkedin.com/in/ann-mary-edwin-37b104291&ved=2ahUKEwiehPrIq96CAxWLU2wGHWqVDq8QFnoECA4QAQ&usg=AOvVaw0dKI33u5lwNAEa9CI960_s">
+        <i class="fab fa-linkedin-in"></i>
+      </a>
+      <a href="#">
+        <i class="fab fa-whatsapp "></i>
+      </a>
+    </div>
+    <p class="about">A curious soul with a passion for learning new things</p>
+    <a href="annmaryedwin11@gmail.com" class="btn">message</a>
+  </div>
+</div>
+
